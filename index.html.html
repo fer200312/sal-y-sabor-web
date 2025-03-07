@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sal y Sabor - Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6e6;
+            text-align: center;
+        }
+        header {
+            background-color: #ff9999;
+            padding: 20px;
+            color: white;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        button {
+            background-color: #ff6666;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #cc3333;
+        }
+        footer {
+            background-color: #ff9999;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sal y Sabor</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#pedir-online">Pedir Online</a></li>
+                <li><a href="#reservar">Reservar Mesa</a></li>
+                <li><a href="#contacto">Ubicación y Horarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenidos a Sal y Sabor</h2>
+        <p>Disfruta de la mejor comida con un ambiente acogedor.</p>
+    </section>
+    
+    <section id="menu">
+        <h2>Menú</h2>
+        <ul>
+            <li>Chilaquiles - $90</li>
+            <li>Enchiladas - $100</li>
+            <li>Fajitas - $70</li>
+            <li>Hamburguesa + papas + refresco - $200</li>
+            <li>Limonada - $40</li>
+        </ul>
+    </section>
+    
+    <section id="pedir-online">
+        <h2>Haz tu Pedido Online</h2>
+        <button onclick="alert('Función de pedidos próximamente')">Pedir Ahora</button>
+    </section>
+    
+    <section id="reservar">
+        <h2>Reserva tu Mesa</h2>
+        <button onclick="alert('Reserva confirmada')">Reservar</button>
+    </section>
+    
+    <section id="contacto">
+        <h2>Ubicación y Horarios</h2>
+        <p>Horario: 10:00 AM - 10:00 PM</p>
+        <p>Dirección: Calle Principal 123, Ciudad</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Sal y Sabor - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
